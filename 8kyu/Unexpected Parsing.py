@@ -1,10 +1,10 @@
-   #Orginal Problem:
+    #Orginal Problem:
 
 #def get_status(is_busy):
 # status = "busy" if is_busy else "available"      
 # return status
 
-   #Solution: 
+    #Solution: 
 def get_status(is_busy):
     status = "busy" if is_busy else "available"
     return {"status" : status}
